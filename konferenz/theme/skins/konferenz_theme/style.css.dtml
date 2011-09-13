@@ -1,0 +1,83 @@
+body {
+	background-color: #000000;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	color: #eeeeee;
+	}
+
+#visual-portal-wrapper {
+	width: 60em;
+	margin: 0 auto;
+	}
+
+#portal-globalnav {
+	background: none;
+	text-align: right;
+	margin-top: -60px;
+	}
+
+#portal-globalnav li a {
+	background: none;
+	border: none;
+	padding: 0.5em;
+	min-width: 0;
+	font-size: 2em;
+	color: #cccccc;
+	font-family: 'Aldrich', serif;
+	}
+
+#portal-globalnav .selected a,
+#portal-globalnav .selected a:hover,
+#portal-globalnav a:hover {
+	background: none;
+	color: #ffffff;
+	}
+
+#portal-columns {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 0.5em;
+	}
+
+dl.portlet dt.hiddenStructure { background: transparent; }
+
+/* navigation stuff */
+dl.portlet .navTree { padding-top: 1.5em; }
+
+dl.portlet .navTreeItem {
+	border-bottom: none !important;
+	}
+	
+dl.portlet ul.navTree .navTreeCurrentItem {
+	background-color: transparent;
+	border-left: none;
+	padding-left: 1em;
+	color: #205C90;
+	}
+
+.icons-on dl.portlet ul.navTree .navTreeCurrentItem { margin-left: 0; }
+
+dl.portlet ul.navTree li a { font-size: 1.5em; font-family: 'Aldrich', serif; color: #ffffff; }
+dl.portlet ul.navTree li a:hover { color: #205C90 !important; }
+
+#content { min-height: 600px; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Aldrich', serif;
+	color: #eeeeee;
+	}
+
+#content .documentDescription, #content #description { color: #eeeeee; }
+
+#edit-bar { margin-top: 1em; }
+
+#portal-footer { background-color: transparent; }
+
+/* sunburst css fixes by operun */
+.documentDescription { margin-bottom: 0.5em; }
+#content div.newsImageContainer p.discreet { top: 0; background: none; color: #333333; text-align: center;}
+#content ul { margin-bottom: 1em; }
+dl.portlet p { line-height: 1.5em; }

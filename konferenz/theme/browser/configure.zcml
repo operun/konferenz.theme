@@ -1,0 +1,53 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="konferenz.theme">
+
+  <!-- 'Konferenz Theme' Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Konferenz Theme"
+      />
+  
+  <!-- Viewlets registration -->
+  <browser:viewlet
+      name="plone.footer"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      layer=".interfaces.IThemeSpecific"
+      class=".footer.FooterViewlet"
+      permission="zope.Public"
+      />
+
+  <browser:page
+      for="Products.CMFCore.interfaces.ISiteRoot"
+      name="frontpage"
+      class=".frontpage.FrontpageView"
+      permission="zope.Public"
+      />
+
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images -->
+  <browser:resourceDirectory
+      name="konferenz.theme.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <!-- Resource directory for templates -->
+  <browser:resourceDirectory
+      name="konferenz.theme.templates"
+      directory="templates"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <!-- Resource directory for javascripts -->
+  <browser:resourceDirectory
+      name="konferenz.theme.javascripts"
+      directory="javascripts"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>
