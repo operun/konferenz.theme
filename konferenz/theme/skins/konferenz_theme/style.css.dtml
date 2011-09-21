@@ -103,3 +103,63 @@ a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.po
 #content ul { margin-bottom: 1em; }
 
 dl.portlet p { line-height: 1.5em; }
+
+/* pfg styles by gomez */
+
+#pfg-fieldwrapper fieldset {
+    border-top: 1px solid #DDDDDD;
+    margin: 20px -20px -10px 0;
+    padding: 13px 20px 5px 0;
+}
+
+#pfg-fieldwrapper fieldset legend {
+    background: none repeat scroll 0 0 #0083BE;
+    color: #FFF;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1;
+    margin: -25px 0 15px 140px;
+    padding: 0 10px;
+}
+
+#pfg-fieldwrapper .formField {
+    display: block;
+    margin-bottom: 1em;
+    clear: both;
+    }
+
+#pfg-fieldwrapper label {
+    color: #333333;
+    float: left;
+    text-align: right;
+    width: 100px;
+    padding: 4px 0 0 0;
+    font-size: 13px;
+    }
+
+#pfg-fieldwrapper .formInput { margin-left: 110px; }
+#pfg-fieldwrapper input, #pfg-fieldwrapper textarea{
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px;
+    }
+#pfg-fieldwrapper input { width: 250px; }
+#pfg-fieldwrapper textarea { width: 500px; }
+#pfg-fieldwrapper input[type="submit"] { width: 262px; } 
+#pfg-fieldwrapper input:focus,
+#pfg-fieldwrapper textarea:focus {
+    border-color: rgba(82, 168, 236, 0.75) !important;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+    outline: medium none;
+    }
+#pfg-fieldwrapper .formHelp {
+    display: block;
+    color: #666666;
+    font-size: 12px;
+    }
+
