@@ -119,26 +119,56 @@ dl.portlet p { line-height: 1.5em; }
     font-size: 20px;
     font-weight: normal;
     line-height: 1;
-    margin: -25px 0 15px 140px;
+    margin: -25px 0 15px 100px;
     padding: 0 10px;
 }
 
-#pfg-fieldwrapper .formField {
-    display: block;
-    margin-bottom: 1em;
-    clear: both;
-    }
-
 #pfg-fieldwrapper label {
-    color: #333333;
-    float: left;
+    color: #FFF;
     text-align: right;
     width: 100px;
     padding: 4px 0 0 0;
     font-size: 13px;
     }
 
+#pfg-fieldwrapper div.field { 
+    margin-left:110px;
+}
+
+#archetypes-fieldname-firma,
+#archetypes-fieldname-postleitzahl,
+#archetypes-fieldname-vorname {
+    float:left;
+    margin:0;
+}
+
+#archetypes-fieldname-job-status,
+#archetypes-fieldname-stadt,
+#archetypes-fieldname-nachname {
+    float:right;
+    clear:none;
+    margin:0 100px 0 0 !important;
+}
+
+#archetypes-fieldname-titel,
+#archetypes-fieldname-land,
+#archetypes-fieldname-strasse-nummer {
+    padding-top: 1em;
+}
+
+#archetypes-fieldname-titel,
+#archetypes-fieldname-strasse-nummer,
+#archetypes-fieldname-e-mail-adresse {
+    float: left;
+}
+
+div.field.error {
+    background:transparent;
+}
+
+
 #pfg-fieldwrapper .formInput { margin-left: 110px; }
+
 #pfg-fieldwrapper input, #pfg-fieldwrapper textarea{
     border: 1px solid #CCCCCC;
     border-radius: 3px 3px 3px 3px;
@@ -148,18 +178,37 @@ dl.portlet p { line-height: 1.5em; }
     margin: 0;
     padding: 5px;
     }
-#pfg-fieldwrapper input { width: 250px; }
+
 #pfg-fieldwrapper textarea { width: 500px; }
+
 #pfg-fieldwrapper input[type="submit"] { width: 262px; } 
+
 #pfg-fieldwrapper input:focus,
 #pfg-fieldwrapper textarea:focus {
-    border-color: rgba(82, 168, 236, 0.75) !important;
-    box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+    border-color: rgba(244, 173, 33, 0.75) !important;
+    box-shadow: 0 0 8px rgba(244, 173, 33, 0.5);
     outline: medium none;
     }
+
 #pfg-fieldwrapper .formHelp {
     display: block;
-    color: #666666;
+    color: #F4AD21;
     font-size: 12px;
     }
 
+
+
+/* Not needed 
+
+#pfg-fieldwrapper .formField {
+    display: block;
+    margin-bottom: 1em;
+    clear: both;
+    }
+
+
+    width: 250px; 
+}
+
+
+*/
