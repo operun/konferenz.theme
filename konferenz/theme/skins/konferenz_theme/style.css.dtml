@@ -47,7 +47,7 @@ body {
 dl.portlet dt.hiddenStructure { background: transparent; }
 
 /* navigation stuff */
-dl.portlet .navTree { padding-top: 1em; }
+dl.portlet .navTree {}
 dl.portlet .navTreeItem { border-bottom: none !important; }
 dl.portlet ul.navTree .navTreeCurrentItem {
 	background-color: transparent;
@@ -61,6 +61,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 dl.portlet ul.navTree li a { font-size: 1.5em; color: #ffffff; font-weight: bold; }
 dl.portlet ul.navTree li a:hover { color: #f4ad21 !important; }
+
+#content { margin-top: 0; }
 
 h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 h1, h2 { letter-spacing: 0; }
