@@ -27,6 +27,13 @@
       permission="zope.Public"
       />
 
+  <browser:page
+	  for="Products.ATContentTypes.interface.topic.IATTopic"
+	  name="rssview"
+	  class=".rss.RssView"
+	  permission="zope2.View"
+	  />
+
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images -->
