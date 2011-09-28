@@ -216,19 +216,19 @@ div.field.error {
     font-size: 12px;
     }
 
+/* Social Portlets */
 
-
-/* Not needed 
-
-#pfg-fieldwrapper .formField {
-    display: block;
-    margin-bottom: 1em;
-    clear: both;
-    }
-
-
-    width: 250px; 
+.portlet-static-soziales dd.portletItem  {
+    padding:0px 11px 0px 37px !important; 
 }
 
+.portlet-static-soziales dd.portletItem a {
+    padding:10px;
+    display: inline-block;
+}
+
+.portlet-static-soziales dd.portletFooter {
+    padding-top:0px !important;
+}
 
 */
