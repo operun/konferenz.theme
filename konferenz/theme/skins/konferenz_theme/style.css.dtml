@@ -81,6 +81,7 @@ table.listing th { background-color: #00679b; color: #ffffff; }
 table.listing tbody tr.odd { background-color: #0083be; }
 table.listing tbody tr.odd td { background-color: #0083be; }
 .ploneSkin table.mceLayout td.mceToolbar { background-color: lightgrey; }
+.pb-ajax, .pb-image, .overlay iframe { background-color: #0083BE; }
    
 #content .pullquote {
 	color: #f4ad21;
