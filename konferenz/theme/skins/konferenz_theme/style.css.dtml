@@ -178,7 +178,8 @@ dl.portlet p { line-height: 1.5em; }
     float: left;
 }
 
-#archetypes-fieldname-terms-and-condition {
+#archetypes-fieldname-terms-and-condition,
+#archetypes-fieldname-waeren-sie-an-einem-plone-training-interessiert {
     margin-bottom:5px;
 }
 
@@ -231,4 +232,18 @@ div.field.error {
     padding-top:0px !important;
 }
 
-*/
+.ploneSkin table.mceLayout td.mceToolbar {
+    background-color: #FFFFFF;
+}
+.ploneSkin table.mceLayout td.mceToolbar {
+    background-color: #FFFFFF;
+}
+
+.ploneSkin table.mceListBox .mceText {
+    color:black !important;
+}
+
+.mceContentBody a {
+    color: #F4AD21 !important;
+}
+
