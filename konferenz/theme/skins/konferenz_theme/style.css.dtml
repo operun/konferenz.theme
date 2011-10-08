@@ -117,6 +117,9 @@ dl.portlet p { line-height: 1.5em; }
 
 /* pfg styles by gomez */
 
+
+/* AnmeldungsPFG */
+
 #pfg-fieldwrapper fieldset {
     border-top: 1px solid #DDDDDD;
     margin: 20px -20px -10px 0;
@@ -187,7 +190,6 @@ div.field.error {
     background:transparent;
 }
 
-
 #pfg-fieldwrapper .formInput { margin-left: 110px; }
 
 #pfg-fieldwrapper input, #pfg-fieldwrapper textarea{
@@ -216,6 +218,32 @@ div.field.error {
     color: #F4AD21;
     font-size: 12px;
     }
+
+/* Flyer bestellen PFG Fixes */
+
+.formid-flyer-bestellen #pfg-fieldwrapper div.field {
+    margin-left:20px;
+}
+.formid-flyer-bestellen #pfg-fieldwrapper #archetypes-fieldname-stadt {
+    float:left;
+    clear:both;
+    margin:0 120px 10px 20px !important;
+}
+
+/* Vortrag fixes */
+
+.formid-vortrag-einreichen #pfg-fieldwrapper div.field {
+    margin-right:0;
+}
+
+.formid-vortrag-einreichen #pfg-fieldwrapper fieldset {
+    margin-right:0;
+    padding-right:0;
+}
+
+.formid-vortrag-einreichen #pfg-fieldwrapper .suppressVisualEditor {
+    display:none;
+} 
 
 /* Social Portlets */
 
