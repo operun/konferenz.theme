@@ -182,10 +182,20 @@ dl.portlet p { line-height: 1.5em; }
 }
 
 #archetypes-fieldname-terms-and-condition,
+#archetypes-fieldname-student-50-euro,
 #archetypes-fieldname-waeren-sie-an-einem-plone-training-interessiert {
-    margin-bottom:5px;
+    margin-bottom:2px;
 }
 
+#archetypes-fieldname-studentinfo {
+    color: #F4AD21;
+    display: block;
+    font-size: 12px;
+}
+
+#archetypes-fieldname-studentinfo a {
+    color:#FFF !important;
+}
 div.field.error {
     background:transparent;
 }
@@ -274,4 +284,23 @@ div.field.error {
 .mceContentBody a {
     color: #F4AD21 !important;
 }
+
+/* Newsletter Portlet */
+
+#formfield-form-email input {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: black;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 
+}
+
+#formfield-form-email input:focus {
+    border-color: rgba(244, 173, 33, 0.75) !important;
+    box-shadow: 0 0 8px rgba(244, 173, 33, 0.5);
+    outline: medium none;
+    }
+
 
