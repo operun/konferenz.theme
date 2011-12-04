@@ -1,0 +1,25 @@
+<div metal:define-macro="portal_infobox" i18n:domain="konferenz.theme" tal:define="infos view/infos">
+	<div id="portal-infobox">
+	
+		<div class="" tal:attributes="class view/static">
+		
+		<div class="items">
+		
+			<tal:loop tal:repeat="info infos">
+			<div>
+				<a href="" tal:attributes="href info/url" tal:content="info/title">Infotext</a>
+			</div>
+			</tal:loop>
+			
+			<tal:noinfo tal:condition="not:infos">
+			<div tal:content="view/greeting">
+				You're looking good today.
+			</div>
+			</tal:noinfo>
+			
+		</div>
+		
+		</div>
+		
+	</div>
+</div>

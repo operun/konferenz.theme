@@ -1,7 +1,9 @@
 jq(document).ready(function() {
 
-	// helper script for the registration formula
+	// scrolling infobox stuff
+	jq(".scrollable").scrollable({ circular: true, speed: 1000 }).autoscroll(10000);
 
+	// helper script for the registration formula
 	jq("#fruehbucher-eintritt").click(function() {
 		jq("#regulaerer-eintritt").attr('checked', false);
 		jq("#student-hochschule-muenchen").attr('checked', false);
