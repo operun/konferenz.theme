@@ -76,6 +76,7 @@ dl.portalMessage { color: #000000; }
 .formHelp { color: #ffffff; }
 .ploneSkin .mceEditorFocus .mceIframeContainer { background-color: #00679b !important; }
 .ploneSkin table.mceLayout td.mceToolbar { background-color: lightgrey; }
+.mceWrapper, .dialog-wrapper { color: black; }
 iframe body { color: #000000 !important; }
 div.managePortletsLink, a.managePortletsFallback { background: none repeat scroll 0 0 #00679b; }
 dl.portlet dt, div.portletAssignments div.portletHeader { background: none repeat scroll 0 0 #00679b; }
@@ -90,6 +91,9 @@ table.listing tbody tr.odd td { background-color: #0083be; }
 	letter-spacing: 0 !important;
 	width: 50%;
 	}
+
+#content dd { margin: 0 0 1em 0.5em; }
+#document-toc { margin-top: 0; }
 
 a:link,
 a:visited,
@@ -132,8 +136,6 @@ dl.portlet a:hover {
 dl.portlet p { line-height: 1.5em; }
 
 /* pfg styles by gomez */
-
-
 /* AnmeldungsPFG */
 
 #pfg-fieldwrapper fieldset {
@@ -166,9 +168,8 @@ dl.portlet p { line-height: 1.5em; }
     margin-right:120px;
 }
 
-#pfg-fieldsetname-kontakt-informationen .formHelp {
-    width: 266px;
-}
+#pfg-fieldsetname-kontakt-informationen .formHelp { width: 266px; }
+#pfg-fieldwrapper textarea { width: 450px; }
 
 #archetypes-fieldname-firma,
 #archetypes-fieldname-postleitzahl,
@@ -271,14 +272,21 @@ div.field.error {
     display:none;
 } 
 
+/* google maps stuff */
+
+.googleMapPane,
+.mapsMarker { color: #000000; }
+.mapsMarker h3,
+.mapsMarker h2,
+.mapsMarker h1 { color: #0083BE; }
+
+
 /* Social Portlets */
 
-.portlet-static-soziales dd.portletItem  {
-    padding:0px 11px 0px 37px !important; 
-}
+.portlet-static-soziales dd.portletItem { padding: 1em 0 !important; text-align: center; }
 
 .portlet-static-soziales dd.portletItem a {
-    padding:10px;
+    padding: 0 8px 0 0;
     display: inline-block;
 }
 
