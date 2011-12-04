@@ -4,7 +4,7 @@
 
         <div id="portal-footer">
             <p>Plone Konferenz München 2012 vom 22. bis 24. Februar 2012</p>
-            <p>Veranstaltet von der <a href="http://www.plone.de/mitmachen/gruppen/plone-user-munchen">Münchner Plone User Group</a> mit Unterstützung des DZUG e.V.</p>
+            <p>Veranstaltet von der <a href="http://www.plone.de/mitmachen/gruppen/plone-user-munchen">Münchner Plone User Group</a> mit Unterstützung des Python Software Verband e.V.</p>
             <p><a href="" tal:attributes="href string:${view/site_url}/contact-info">Kontaktieren</a> Sie uns. Weitere Informationen finden Sie im <a href="" tal:attributes="href string:${view/site_url}/impressum">Impressum</a>.
             <p><a href="http://plone.org">Plone<sup>&reg;</sup> Open Source Content Management System</a></p>
             <p>&copy; 2000 - <tal:year tal:content="view/year" /> <a href="http://plone.org/foundation">Plone Foundation</a> and friends</p>
