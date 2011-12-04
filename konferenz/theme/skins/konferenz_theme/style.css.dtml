@@ -91,7 +91,23 @@ table.listing tbody tr.odd td { background-color: #0083be; }
 	width: 50%;
 	}
 
-a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited {
+a:link,
+a:visited,
+a:hover {
+	color: #f4ad21;
+	border-bottom: none;
+	}
+
+#content a:link,
+#content a:visited,
+#content a:hover {
+	color: #f4ad21 !important;
+	border-bottom: none;
+	}
+
+dl.portlet a:link,
+dl.portlet a:visited
+dl.portlet a:hover {
 	color: #f4ad21 !important;
 	border-bottom: none;
 	}
