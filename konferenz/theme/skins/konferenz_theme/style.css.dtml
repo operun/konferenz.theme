@@ -92,7 +92,7 @@ table.listing tbody tr.odd td { background-color: #0083be; }
 	}
 
 a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited {
-	color: #f4ad21;
+	color: #f4ad21 !important;
 	border-bottom: none;
 	}
 
