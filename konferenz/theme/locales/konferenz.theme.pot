@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-04 22:54+0000\n"
+"POT-Creation-Date: 2011-12-05 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,11 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: konferenz.theme\n"
 
+#. Default: "Professional Content Management"
+#: ./browser/templates/frontpage.pt:14
+msgid "frontpage_heading"
+msgstr ""
+
 #. Default: "Contact"
 #: ./skins/konferenz_theme/contact-info.cpt:21
 msgid "heading_contact_form"
@@ -25,5 +30,15 @@ msgstr ""
 #. Default: "Contact info"
 #: ./skins/konferenz_theme/contact-info.cpt:27
 msgid "heading_contact_form_data"
+msgstr ""
+
+#. Default: "Hochschultagung"
+#: ./browser/templates/frontpage.pt:33
+msgid "hochschultagung"
+msgstr ""
+
+#. Default: "Twitter #PloneKonf"
+#: ./browser/templates/frontpage.pt:23
+msgid "plonekonf_on_twitter"
 msgstr ""
 

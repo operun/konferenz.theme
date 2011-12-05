@@ -20,7 +20,7 @@
     <div id="frontpageInfos">
     
 	    <dl class="portlet portletFrontpage portletTwitter">
-	    	<dt class="portletHeader" i18n:translate="plonekonf_on_twitter">PloneKonf on Twitter</dt>
+	    	<dt class="portletHeader" i18n:translate="plonekonf_on_twitter">Twitter #PloneKonf</dt>
 	    	<dd class="portletItemSingle odd">
 			    <script src="http://widgets.twimg.com/j/2/widget.js"></script><script>new TWTR.Widget({
 			    	version: 2, type: 'search', search: 'PloneKonf', interval: 5000, width: 'auto', height: 250, theme: { shell: { background: '#0083be', color: '#ffffff' }, tweets: { background: '#0083be', color: '#ffffff', links: '#f4ae21' } },
@@ -30,9 +30,9 @@
 	    </dl>
 	    
 	    <dl class="portlet portletFrontpage portletOther">
-	    	<dt class="portletHeader" i18n:translate="plonekonf_on_twitter">Hochschultagung</dt>
+	    	<dt class="portletHeader" i18n:translate="hochschultagung">Hochschultagung</dt>
 	    	<dd class="portletItemSingle odd">
-	    		<p>Im Rahmen der Plone Konferenz München 2012 findet auch die Hochschultagung des Python Software Verband e.V. statt. Die Hochschulen, die Zope und Plone einsetzen, treffen sich zum jährlichen Workshop.</p>
+	    		<p>Im Rahmen der Plone Konferenz München 2012 findet auch die <a href="/veranstaltung/hochschultagung">Hochschultagung</a> des Python Software Verband e.V. statt. Die Hochschulen, die Zope und Plone einsetzen, treffen sich zum jährlichen Workshop.</p>
 	    		<p>Für Studierende steht ein vergünstigtes Ticket (Studententarif) zur Verfügung. Das Ticket kostet 50,00 Euro und enthält 19% MwSt. Studenten haben zudem die Möglichkeit, sich für ein Stipendium zu bewerben um sich Reise- und Hotelkosten erstatten zu lassen.</p> 
 	    	</dd>
 	    </dl>
