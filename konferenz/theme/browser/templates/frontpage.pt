@@ -8,16 +8,37 @@
 
 <body>
 
-<div metal:fill-slot="main">
-    <tal:main-macro metal:define-macro="main"
-                    tal:define="kssClassesView context/@@kss_field_decorator_view;
-                                getKssClasses nocall:kssClassesView/getKssClassesInlineEditable;">
-
-		
-		<tal:comment replace="nothing">
-		<!-- instert frontpage hiere -->
-		</tal:comment>
-		
+<div metal:fill-slot="main" tal:define="portal context/@@plone_portal_state/portal;" >
+    <tal:main-macro metal:define-macro="main">
+    
+    <h1 class="documentFirstHeading" i18n:translate="frontpage_heading">Professional Content Management</h1>
+    
+    <div class="documentDescription" tal:condition="portal/description" tal:content="portal/description">Site Description</div>
+    
+    <div id="frontpageImage"></div>
+    
+    <div id="frontpageInfos">
+    
+	    <dl class="portlet portletFrontpage portletTwitter">
+	    	<dt class="portletHeader" i18n:translate="plonekonf_on_twitter">PloneKonf on Twitter</dt>
+	    	<dd class="portletItemSingle odd">
+			    <script src="http://widgets.twimg.com/j/2/widget.js"></script><script>new TWTR.Widget({
+			    	version: 2, type: 'search', search: 'PloneKonf', interval: 5000, width: 'auto', height: 250, theme: { shell: { background: '#0083be', color: '#ffffff' }, tweets: { background: '#0083be', color: '#ffffff', links: '#f4ae21' } },
+			    	features: { scrollbar: false, loop: true, live: true, behavior: 'default' } }).render().start();
+			    </script>
+	    	</dd>
+	    </dl>
+	    
+	    <dl class="portlet portletFrontpage portletOther">
+	    	<dt class="portletHeader" i18n:translate="plonekonf_on_twitter">Hochschultagung</dt>
+	    	<dd class="portletItemSingle odd">
+	    		<p>Im Rahmen der Plone Konferenz München 2012 findet auch die Hochschultagung des Python Software Verband e.V. statt. Die Hochschulen, die Zope und Plone einsetzen, treffen sich zum jährlichen Workshop.</p>
+	    		<p>Für Studierende steht ein vergünstigtes Ticket (Studententarif) zur Verfügung. Das Ticket kostet 50,00 Euro und enthält 19% MwSt. Studenten haben zudem die Möglichkeit, sich für ein Stipendium zu bewerben um sich Reise- und Hotelkosten erstatten zu lassen.</p> 
+	    	</dd>
+	    </dl>
+	    
+	</div>
+	
     </tal:main-macro>
 </div>
 

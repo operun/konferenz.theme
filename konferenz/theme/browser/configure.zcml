@@ -30,7 +30,7 @@
       />
 
   <browser:page
-      for="Products.CMFCore.interfaces.ISiteRoot"
+      for="*"
       name="frontpage"
       class=".frontpage.FrontpageView"
       permission="zope.Public"
