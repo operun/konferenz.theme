@@ -180,6 +180,13 @@ dl.portlet a:hover {
 	border-bottom: none;
 	}
 
+#portal-plonefooter {
+	background-image: url(background-footer.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 65px;
+	}
+
 #portal-footer {
 	background-color: #0083be;
 	background-image: url(skyline.jpg);
@@ -188,6 +195,9 @@ dl.portlet a:hover {
 	min-height: 100px;
 	padding: 0.25em;
 	}
+
+#portal-sponsorbox {}
+#portal-sponsorbox h1 { display: none; }
 
 /* sunburst css fixes by operun */
 
