@@ -196,8 +196,12 @@ dl.portlet a:hover {
 	padding: 0.25em;
 	}
 
-#portal-sponsorbox {}
-#portal-sponsorbox h1 { display: none; }
+#portal-sponsorbox { padding-left: 1em; }
+
+#portal-sponsorbox h1 {
+	font-size: 100%;
+	margin-bottom: 0.25em;
+	}
 
 /* sunburst css fixes by operun */
 
@@ -211,6 +215,9 @@ dl.portlet p { line-height: 1.5em; }
 
 /* pfg styles by gomez */
 /* AnmeldungsPFG */
+
+/* disable clear saved form input button on pfg */
+#clearSavedFormInput { display: none; }
 
 #pfg-fieldwrapper fieldset {
     border-top: 1px solid #DDDDDD;
