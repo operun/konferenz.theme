@@ -174,7 +174,7 @@ a:hover {
 	}
 
 dl.portlet a:link,
-dl.portlet a:visited
+dl.portlet a:visited,
 dl.portlet a:hover {
 	color: #f4ad21 !important;
 	border-bottom: none;
