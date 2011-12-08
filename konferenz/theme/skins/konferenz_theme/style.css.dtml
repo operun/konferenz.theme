@@ -59,7 +59,7 @@ body {
 
 #portal-globalnav {
 	background: none;
-	text-align: right;
+	text-align: center;
 	}
 
 #portal-globalnav li a {
