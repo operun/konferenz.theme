@@ -114,7 +114,7 @@ dl.portlet ul.navTree li a:hover { color: #f4ad21 !important; }
 dl.portletFrontpage {
 	font-size: 100%;
 	float: left;
-	width: 250px;
+	width: 48%;
 	}
 
 dl.portletFrontpage dd {
@@ -122,9 +122,9 @@ dl.portletFrontpage dd {
 	padding: 1em;
 	}
 
-dl.portletTwitter { margin-right: 1em; }
+dl.portletTwitter { margin-right: 4%; }
 dl.portletTwitter .twtr-hd { display: none; }
-
+dl.portletTwitter .twtr-widget .twtr-tweet { border-bottom: none !important; }
 
 #content { margin-top: 0; }
 
@@ -194,6 +194,7 @@ dl.portlet a:hover {
 	background-position: bottom right;
 	min-height: 100px;
 	padding: 0.25em;
+	text-align: center;
 	}
 
 #portal-sponsorbox { padding-left: 1em; }
@@ -202,6 +203,9 @@ dl.portlet a:hover {
 	font-size: 100%;
 	margin-bottom: 0.25em;
 	}
+
+#category-gold { float: left; }
+
 
 /* sunburst css fixes by operun */
 
@@ -215,7 +219,6 @@ dl.portlet p { line-height: 1.5em; }
 
 /* pfg styles by gomez */
 /* AnmeldungsPFG */
-
 /* disable clear saved form input button on pfg */
 #clearSavedFormInput { display: none; }
 
