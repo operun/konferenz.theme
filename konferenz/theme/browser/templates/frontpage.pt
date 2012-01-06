@@ -30,11 +30,20 @@
 	    </dl>
 	    
 	    <dl class="portlet portletFrontpage portletOther">
-	    	<dt class="portletHeader" i18n:translate="hochschultagung">Hochschultagung</dt>
+	    	<dt class="portletHeader" i18n:translate="progamm">Keynote Sprecher</dt>
 	    	<dd class="portletItemSingle odd">
-	    		<p>Im Rahmen der Plone Konferenz München 2012 findet auch die <a href="/veranstaltung/hochschultagung">Hochschultagung</a> des Python Software Verband e.V. statt. Die Hochschulen, die Zope und Plone einsetzen, treffen sich zum jährlichen Workshop.</p>
-	    		<p>Für Studierende steht ein vergünstigtes Ticket (Studententarif) zur Verfügung. Das Ticket kostet 50,00 Euro und enthält 19% MwSt. Studenten haben zudem die Möglichkeit, sich für ein Stipendium zu bewerben um sich Reise- und Hotelkosten erstatten zu lassen.</p> 
-	    	</dd>
+            <ul>
+                <li>Matt Hamilton - Plone Foundation President - Bristol, UK</li>
+                <li>Elizabeth Leddy - Plone Framework Team - San Francisco, USA</li>
+                <li>Alan Runyan - Plone Founder - Houston, USA</li> 
+            </ul>
+	    	<h4>Programm Vorschau</h4>
+                <a href="http://konferenz.plone.de/veranstaltung/programm#plone_theming">- Plone Theming, flexibel, schnell und einfach!</a><br>
+                <a href="http://konferenz.plone.de/veranstaltung/programm#carglass">- Carglassintranet.de: A Case Study</a><br>
+                <a href="http://konferenz.plone.de/veranstaltung/programm#sharepoint">- Plone - die clevere Alternative zu Sharepoint</a><br>
+            <a class="right" href="http://konferenz.plone.de/veranstaltung/programm" alt="Programmvorschau">Weitere Talks</a>
+            <p class="right">(Das vollständige Programm wird in KW 2 veröffentlicht)</p> 
+            </dd>
 	    </dl>
 	    
 	</div>

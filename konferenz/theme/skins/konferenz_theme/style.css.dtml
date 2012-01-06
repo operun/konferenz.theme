@@ -111,6 +111,26 @@ dl.portlet ul.navTree li a:hover { color: #f4ad21 !important; }
 
 #frontpageInfos {}
 
+#frontpageInfos .portletOther h4 {
+    font-size:100%;
+}
+
+#frontpageInfos .portletOther .right {
+    float:right;
+    text-align: right; 
+}
+
+#frontpageInfos .portletOther ul {
+    list-style-type: square;
+    margin-left: 1em;
+}
+
+
+#frontpageInfos .portletOther p {
+    font-size:80%;
+    clear:both;
+}
+
 dl.portletFrontpage {
 	font-size: 100%;
 	float: left;
