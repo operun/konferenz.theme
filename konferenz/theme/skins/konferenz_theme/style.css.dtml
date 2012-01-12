@@ -361,6 +361,13 @@ div.field.error {
     margin:0 120px 10px 20px !important;
 }
 
+/* Presse PFG Fixes */
+
+.formid-aktuelle-pressemitteilungen #pfg-fieldwrapper #archetypes-fieldname-replyto {
+    margin:0;
+}
+
+
 /* Vortrag fixes */
 
 .formid-vortrag-einreichen #pfg-fieldwrapper div.field {
