@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-05 00:38+0000\n"
+"POT-Creation-Date: 2012-01-21 12:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,13 +29,13 @@ msgstr "Kontakt"
 msgid "heading_contact_form_data"
 msgstr "Kontaktdaten"
 
-#. Default: "Hochschultagung"
-#: ./browser/templates/frontpage.pt:33
-msgid "hochschultagung"
-msgstr "Hochschultagung"
-
 #. Default: "Twitter #PloneKonf"
 #: ./browser/templates/frontpage.pt:23
 msgid "plonekonf_on_twitter"
 msgstr "Twitter #PloneKonf"
+
+#. Default: "Keynote Sprecher"
+#: ./browser/templates/frontpage.pt:33
+msgid "progamm"
+msgstr ""
 

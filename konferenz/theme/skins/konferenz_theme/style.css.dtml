@@ -6,6 +6,30 @@ body {
 	color: #ffffff;
 	}
 
+#portal-toolbar {
+	background-image: url('background-toolbox.png');
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 0.5em 1em;
+	z-index: 999;
+	}
+
+#toolbar-container {
+	width: 50em;
+	margin: 0 auto;
+	}
+
+#toolbar-searchbox { float: left; }
+#toolbox-searchform {
+	-moz-appearance: none;
+	border: none;
+	padding: 2px 5px;
+	}
+
+#portal-toolbar .socialActions { float: right; }
+
 #visual-portal-wrapper {
 	width: 50em;
 	margin: 0 auto;
@@ -17,6 +41,8 @@ body {
 	background-color: #0083be;
 	padding: 1em;
 	}
+
+#portal-top { padding-top: 4em; }
 
 #portal-logo { margin: 1em 0 3em 0; }
 
@@ -143,6 +169,7 @@ dl.portletFrontpage dd {
 	}
 
 dl.portletTwitter { margin-right: 4%; }
+dl.portletTwitter .twtr-widget { z-index: 0; }
 dl.portletTwitter .twtr-hd { display: none; }
 dl.portletTwitter .twtr-widget .twtr-tweet { border-bottom: none !important; }
 
