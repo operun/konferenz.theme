@@ -29,23 +29,15 @@
 	    	</dd>
 	    </dl>
 	    
-	    <dl class="portlet portletFrontpage portletOther">
-	    	<dt class="portletHeader" i18n:translate="progamm">Keynote Sprecher</dt>
-	    	<dd class="portletItemSingle odd">
-            <ul>
-                <li>Matt Hamilton - Plone Foundation President - Bristol, UK</li>
-                <li>Elizabeth Leddy - Plone Framework Team - San Francisco, USA</li>
-                <li>Alan Runyan - Plone Founder - Houston, USA</li> 
-            </ul>
-	    	<h4>Programmvorschau</h4>
-                <a href="http://konferenz.plone.de/veranstaltung/programm#plone_theming">- Plone Theming, flexibel, schnell und einfach!</a><br>
-                <a href="http://konferenz.plone.de/veranstaltung/programm#carglass">- Carglassintranet.de: A Case Study</a><br>
-                <a href="http://konferenz.plone.de/veranstaltung/programm#sharepoint">- Plone - die clevere Alternative zu Sharepoint</a><br>
-            <a class="right" href="http://konferenz.plone.de/veranstaltung/programm" alt="Programmvorschau">Weitere Talks</a>
-            <p class="right">(Das vollständige Programm wird in KW 2 veröffentlicht)</p> 
-            </dd>
-	    </dl>
-	    
+    	<dl class="portlet portletFrontpage portletOther">
+    		<dt class="portletHeader">
+    			<metal:field use-macro="python:context.widget('title', mode='view')">Title</metal:field>
+    		</dt>
+    		<dd class="portletItem lastItem" >
+    			<metal:field use-macro="python:context.widget('text', mode='view')">Body text</metal:field>
+    		</dd>
+    	</dl>
+
 	</div>
 	
     </tal:main-macro>
