@@ -82,7 +82,6 @@ body {
 	text-align: center;
 	}
 
-
 #portal-globalnav {
 	background: none;
 	text-align: center;
@@ -96,7 +95,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #ffffff;
-	margin-left: 0.5em;
+	margin-left: 0.2em;
 	}
 
 #portal-globalnav .selected a,
@@ -203,6 +202,8 @@ table.listing tbody tr.odd td { background-color: #0083be; }
 	width: 50%;
 	}
 
+#content table { width: 100%; }
+
 #content dd { margin: 0 0 1em 0.5em; }
 #document-toc { margin-top: 0; }
 
@@ -231,7 +232,7 @@ dl.portlet a:hover {
 	background-image: url(background-footer.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
-	padding-top: 65px;
+	padding-top: 50px;
 	}
 
 #portal-footer {
@@ -241,10 +242,15 @@ dl.portlet a:hover {
 	background-position: bottom right;
 	min-height: 100px;
 	padding: 0.25em;
+	padding-top: 10px;
 	text-align: center;
 	}
 
-#portal-sponsorbox { padding-left: 1em; }
+#portal-sponsorbox {
+	width: 720px;
+	margin: 0 auto;
+	padding-left: 1em;
+	}
 
 #portal-sponsorbox h1 {
 	font-size: 100%;
@@ -253,6 +259,14 @@ dl.portlet a:hover {
 
 #category-gold { float: left; }
 
+/* fix colors for highlighted search terms */
+.highlightedSearchTerm { color: #FFFFFF !important; background-color: #F4AD21 !important; }
+
+/* this is for what? */
+.optionsBox label { color: #000000; }
+
+/* this is for what? */
+div.listingBar a { border: none !important; }
 
 /* sunburst css fixes by operun */
 
