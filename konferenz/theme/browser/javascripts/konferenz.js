@@ -17,6 +17,15 @@ jq(document).ready(function() {
 		return false;
 		})
 
+    // user overlay to show talk details
+    jq('.schedule a').prepOverlay(
+        {
+            subtype: 'ajax',
+            filter: common_content_filter,
+            noform: function(el) {return $.plonepopups.noformerrorshow(el, 'close');}
+        }
+    );
+
 	jq("#regulaerer-eintritt").click(function() {
 		jq("#fruehbucher-eintritt").attr('checked', false);
 		jq("#student-hochschule-muenchen").attr('checked', false);
@@ -34,5 +43,5 @@ jq(document).ready(function() {
 		jq("#regulaerer-eintritt").attr('checked', false);
 		jq("#student-hochschule-muenchen").attr('checked', false);
 	});
-	
+
 });

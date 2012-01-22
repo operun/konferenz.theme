@@ -249,6 +249,24 @@ dl.portlet a:hover {
 
 #category-gold { float: left; }
 
+/* schedule stuff */
+
+.schedule {}
+
+.schedule th,
+.schedule td {
+	vertical-align: top;
+	padding: 0.5em 1em;
+	min-height: 3em;
+	}
+
+.schedule th { width: 30% }
+.schedule th:first-child { width: 10% }
+	
+.schedule tr:nth-child(2n+1) { background-color: #00679B; }
+ 
+.schedule td a { font-weight: bold; }
+
 /* talk listing stuff */
 
 #talk-list .search {
