@@ -5,6 +5,10 @@
 		
 		<div class="items">
 		
+			<div tal:condition="view/countdown">
+				<span i18n:translate="">Only <span tal:content="view/countdown" i18n:name="countdown">30</span> days left until #PloneKonf</span>
+			</div>
+
 			<tal:loop tal:repeat="info infos">
 			<div>
 				<a href="" tal:attributes="href info/url" tal:content="info/title">Infotext</a>

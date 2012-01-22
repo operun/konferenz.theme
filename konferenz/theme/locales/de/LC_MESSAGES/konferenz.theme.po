@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-01-21 12:36+0000\n"
+"POT-Creation-Date: 2012-01-22 22:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+
+#: ./browser/templates/infobox.pt:9
+msgid "Only ${countdown} days left until #PloneKonf"
+msgstr "Nur noch ${countdown} Tage bis zur #PloneKonf"
 
 #. Default: "Professional Content Management"
 #: ./browser/templates/frontpage.pt:14
@@ -33,9 +37,4 @@ msgstr "Kontaktdaten"
 #: ./browser/templates/frontpage.pt:23
 msgid "plonekonf_on_twitter"
 msgstr "Twitter #PloneKonf"
-
-#. Default: "Keynote Sprecher"
-#: ./browser/templates/frontpage.pt:33
-msgid "progamm"
-msgstr ""
 

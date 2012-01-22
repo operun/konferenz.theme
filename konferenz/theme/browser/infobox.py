@@ -45,6 +45,18 @@ class InfoboxViewlet(ViewletBase):
         return date.today().year
     
 
+    def countdown(self):
+        """ return contdown day until given date
+        """
+        delta = date(2012, 2, 22) - date.today()
+        days = delta.days
+        
+        if int(days) > 0:
+            return days
+        else:
+            return False
+    
+        
     def greeting(self):
         """return greeting based on time"""
         
