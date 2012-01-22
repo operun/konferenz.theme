@@ -10,6 +10,13 @@ jq(document).ready(function() {
 		jq("#student-50-euro").attr('checked', false);
 	});
 
+	// expand talk description on click
+	jq('.talklist-item').click(function () {
+		jq(this).find('.expandLink').css({'display': 'none'});
+		jq(this).find('.tileText').fadeIn('slow');
+		return false;
+		})
+
 	jq("#regulaerer-eintritt").click(function() {
 		jq("#fruehbucher-eintritt").attr('checked', false);
 		jq("#student-hochschule-muenchen").attr('checked', false);

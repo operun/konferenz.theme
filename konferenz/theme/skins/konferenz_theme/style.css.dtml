@@ -244,6 +244,58 @@ dl.portlet a:hover {
 
 #category-gold { float: left; }
 
+/* talk listing stuff */
+
+#talk-list .search {
+	border: none;
+	background: none;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	float: left;
+	}
+
+#talk-list .filter,
+#talk-list .sort-by {
+	float: right;
+	list-style-type: none;
+	margin-left: 0;
+	}
+
+#talk-list .btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    }
+
+#talk-list ul.list {
+	list-style-type: none;
+	margin-left: 0;
+	}
+
+#talk-list .talklist-item { padding: 1em; }
+
+#talk-list .talklist-item:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    }
+
+#talk-list .tileText,
+#talk-list .category { display: none; }
+
+#talk-list .talkImage {
+	float: left;
+	margin: 0 1em 0.2em 0;
+	}
+
+#talk-list .expandLink { text-align: right; }
+
 /* fix colors for highlighted search terms */
 .highlightedSearchTerm { color: #FFFFFF !important; background-color: #F4AD21 !important; }
 
