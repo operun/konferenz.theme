@@ -162,6 +162,11 @@ dl.portletTwitter .twtr-widget .twtr-tweet { border-bottom: none !important; }
 h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 h1, h2 { letter-spacing: 0; }
 
+
+/* letter spacing fixes by acsr, ticket #166 */
+#content .documentDescription, #content #description { letter-spacing: 0.02em; }
+h1, h2, h3, h4, h5, h6, p, #content dt, #portal-globalnav li a { letter-spacing: 0.01em !important; }
+
 /* color fixes */
 #content .documentDescription, #content #description { color: #f4ad21; }
 #content .discreet, #sidebar .discreet { color: #ffffff; }
