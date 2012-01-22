@@ -267,7 +267,8 @@ dl.portlet a:hover {
 	margin-left: 0;
 	}
 
-#talk-list .btn {
+#talk-list .btn,
+#talk-list .expandLink {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     color: #ffffff;
@@ -278,12 +279,18 @@ dl.portlet a:hover {
     padding: 0.5em 1em;
     }
 
+#talk-list .tileSpeaker { float: left; }
+#talk-list .expandLink { float: right; }
+
 #talk-list ul.list {
 	list-style-type: none;
 	margin-left: 0;
 	}
 
-#talk-list .talklist-item { padding: 1em; }
+#talk-list .talklist-item {
+	padding: 1em;
+	padding-left: 85px;
+	}
 
 #talk-list .talklist-item:nth-child(2n+1) {
     background-color: rgba(0, 0, 0, 0.1);
@@ -291,12 +298,19 @@ dl.portlet a:hover {
     border-radius: 5px;
     }
 
+#talk-list .tileHeadline {
+	font-weight: bold;
+	font-size: 120%;
+	color: #f4ad21;
+	margin-bottom: 0.5em;
+	}
+
 #talk-list .tileText,
 #talk-list .category { display: none; }
 
 #talk-list .talkImage {
-	float: left;
-	margin: 0 1em 0.2em 0;
+	position: absolute;
+	left: 1.2em;
 	}
 
 #talk-list .expandLink { text-align: right; }

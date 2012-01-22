@@ -11,9 +11,9 @@ jq(document).ready(function() {
 	});
 
 	// expand talk description on click
-	jq('.talklist-item').click(function () {
-		jq(this).find('.expandLink').css({'display': 'none'});
-		jq(this).find('.tileText').fadeIn('slow');
+	jq('.expandLink').click(function () {
+		jq(this).parent().find('.expandLink').css({'display': 'none'});
+		jq(this).parent().find('.tileText').fadeIn('slow');
 		return false;
 		})
 
