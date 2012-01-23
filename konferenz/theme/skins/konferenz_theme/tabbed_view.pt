@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<body>
+
+    <metal:content-core fill-slot="content-core">
+        <metal:block define-macro="listing" extend-macro="context/folder_listing/macros/content-core">
+            <!-- we don't want the dl -->
+            <metal:entries fill-slot="entries">
+
+				<ul class="tabs">
+                <metal:block use-macro="context/folder_listing/macros/entries">
+                    <metal:entry fill-slot="entry">
+                    	<li tal:content="item_title_or_id">Title or Id</li>
+                    </metal:entry>
+                </metal:block>
+				</ul>
+				
+				<div class="visualClear"><!-- --></div>
+
+				<div class="panes">
+                <metal:block use-macro="context/folder_listing/macros/entries">
+                    <metal:entry fill-slot="entry">
+		                <div class="tileItem visualIEFloatFix" tal:define="item_object item/getObject;">
+		
+		                    <h2 class="tileHeadline" metal:define-macro="listitem" tal:content="item_title_or_id">
+		                    	Item Title
+		                    </h2>
+		
+		                    <p class="tileBody" tal:condition="item_description">
+		                        <span class="description" tal:content="item_description">
+		                            description
+		                        </span>
+		                    </p>
+		                    
+		                    
+		                    <tal:comment replace="nothing">
+		                    	<!-- we need to fix the part below, need cooked body, macro, or something like that -->
+		                    </tal:comment>
+		                    
+		                    <div class="tileText">
+		                    	<metal:field use-macro="python:item_object.widget('text', mode='view')">
+		                    		Title
+		                    	</metal:field>
+		                    </div>
+		                    		
+		                    <div class="visualClear"><!-- --></div>
+		
+		                </div>
+                    </metal:entry>
+                </metal:block>
+                </div>
+                
+            </metal:entries>
+        </metal:block>
+    </metal:content-core>
+
+</body>
+</html>

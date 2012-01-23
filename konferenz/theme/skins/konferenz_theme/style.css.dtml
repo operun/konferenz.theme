@@ -267,6 +267,36 @@ dl.portlet a:hover {
  
 .schedule td a { font-weight: bold; }
 
+/* schedule tabs stuff */
+
+ul.tabs { 
+	list-style-type: none !important; 
+	margin: 1em 0 0 0 !important;
+	}
+
+/* single tab */
+
+ul.tabs li {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-right: 0.5em;
+    padding: 0.5em 1em;
+    }
+
+ul.tabs li { color: #ffffff; }
+
+ul.tabs li.current,
+ul.tabs li.current:hover,
+ul.tabs li.current a { color: #f4ad21; }
+
+.panes { padding: 1em; }
+.panes .pane { display:none; }
+
+
 /* talk listing stuff */
 
 #talk-list .search {
