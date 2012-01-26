@@ -316,7 +316,8 @@ ul.tabs li.current a { color: #f4ad21; }
 	}
 
 #talk-list .btn,
-#talk-list .expandLink {
+#talk-list .expandLink,
+#talk-list .closeLink {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     color: #ffffff;
@@ -328,7 +329,13 @@ ul.tabs li.current a { color: #f4ad21; }
     }
 
 #talk-list .tileSpeaker { float: left; }
+
 #talk-list .expandLink { float: right; }
+
+#talk-list .closeLink {
+	float: right;
+	display: none;
+	}
 
 #talk-list ul.list {
 	list-style-type: none;

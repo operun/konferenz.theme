@@ -10,8 +10,18 @@ jq(document).ready(function() {
 	jq('.expandLink').click(function () {
 		jq(this).parent().find('.expandLink').css({'display': 'none'});
 		jq(this).parent().find('.tileText').fadeIn('slow');
+		jq(this).parent().find('.closeLink').css({'display': 'block'});
 		return false;
 		})
+
+	// close talk description on click
+	jq('.closeLink').click(function () {
+		jq(this).parent().find('.closeLink').css({'display': 'none'});
+		jq(this).parent().find('.tileText').fadeOut('slow');
+		jq(this).parent().find('.expandLink').css({'display': 'block'});
+		return false;
+		})
+
 
     // user overlay to show talk details
     jq('.schedule a').prepOverlay(
