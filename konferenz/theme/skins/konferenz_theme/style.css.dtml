@@ -265,7 +265,30 @@ dl.portlet a:hover {
 	
 .schedule tr:nth-child(2n+1) { background-color: #00679B; }
  
-.schedule td a { font-weight: bold; }
+.schedule td a { 
+    font-weight: bold; 
+    font-size: 130%;
+}
+
+#talk_details .documentDescription {
+    
+
+}
+
+#talk_details .documentDescription {
+    color: #F4AD21;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+    font-size: 1.25em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-left: 0;
+}
+
 
 /* schedule tabs stuff */
 

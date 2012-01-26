@@ -44,9 +44,9 @@
 		                    </tal:comment>
 		                    
 		                    <div class="tileText">
-		                    	<metal:field use-macro="python:item_object.widget('text', mode='view')">
-		                    		Title
-		                    	</metal:field>
+		                    	<span tal:replace="structure python:item_object.CookedBody()">
+		                    		
+		                    	</span>
 		                    </div>
 		                    		
 		                    <div class="visualClear"><!-- --></div>

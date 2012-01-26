@@ -9,7 +9,7 @@ jq(document).ready(function() {
 	// expand talk description on click
 	jq('.expandLink').click(function () {
 		jq(this).parent().find('.expandLink').css({'display': 'none'});
-		jq(this).parent().find('.tileText').fadeIn('slow');
+		jq(this).parent().find('.tileText').fadeIn('fast');
 		jq(this).parent().find('.closeLink').css({'display': 'block'});
 		return false;
 		})
@@ -17,7 +17,7 @@ jq(document).ready(function() {
 	// close talk description on click
 	jq('.closeLink').click(function () {
 		jq(this).parent().find('.closeLink').css({'display': 'none'});
-		jq(this).parent().find('.tileText').fadeOut('slow');
+		jq(this).parent().find('.tileText').fadeOut('fast');
 		jq(this).parent().find('.expandLink').css({'display': 'block'});
 		return false;
 		})
