@@ -271,11 +271,6 @@ dl.portlet a:hover {
 }
 
 #talk_details .documentDescription {
-    
-
-}
-
-#talk_details .documentDescription {
     color: #F4AD21;
     letter-spacing: 0.02em;
     margin-top: 10px;
@@ -289,6 +284,20 @@ dl.portlet a:hover {
     margin-left: 0;
 }
 
+#talk_details ul {
+    margin-bottom: 1em;
+}
+
+#talk_details ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+#talk_details li {
+    display: list-item;
+    line-height: 1.5em;
+    margin-bottom: 0.25em;
+}
 
 /* schedule tabs stuff */
 
