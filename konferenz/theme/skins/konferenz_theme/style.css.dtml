@@ -273,6 +273,23 @@ dl.portlet a:hover {
     font-size: 130%;
 }
 
+/* talk stuff */
+
+.pb-ajax {
+	font-size: 100%;
+	line-height: 1.5em;
+	}
+
+.pb-ajax .documentDescription {
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #F4AD21;
+	}
+
+.talkDetails { margin-bottom: 1em; }
+
+.speakerImage { text-align: center; }
+
 #talk_details .documentDescription {
     color: #F4AD21;
     letter-spacing: 0.02em;
