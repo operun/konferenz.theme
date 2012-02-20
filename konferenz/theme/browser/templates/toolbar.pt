@@ -1,9 +1,9 @@
 <div id="portal-toolbar" i18n:domain="konferenz.theme">
 
-	<div id="toolbar-container">
+	<div id="toolbar-container" tal:define="navigation_root_url view/navigation_root_url">
 
     <dd class="toolbarSection searchActions">
-		<div id="toolbar-searchbox" i18n:domain="plone" tal:define="navigation_root_url view/navigation_root_url; search_input_id python:'toolbox-searchform';">
+		<div id="toolbar-searchbox" i18n:domain="plone" tal:define="search_input_id python:'toolbox-searchform';">
 		    <form name="searchform" id="searchGadget_form" action="search" tal:attributes="action string:${navigation_root_url}/search; id string:${search_input_id}_form">
 		        <div class="LSBox">
 		        <label class="hiddenStructure" tal:attributes="for search_input_id" i18n:translate="text_search">Search Site</label>
@@ -16,11 +16,12 @@
     
     <dd class="toolbarSection socialActions">
      	<ul>
-     		<li><a href="http://twitter.com/PloneKonferenz" title="Plone Konferenz bei Twitter"><img alt="Plone Konferenz Twitter Link" src="++resource++konferenz.theme.images/toolbar-twitter.png" /></a></li>
-     		<li><a href="https://www.facebook.com/pages/Plonede/141710805879238" title="Plone bei Facebook"><img alt="Plone Konferenz Facebook Link" src="++resource++konferenz.theme.images/toolbar-facebook.png" /></a></li>
-     		<li><a href="http://feeds.feedburner.com/plone/NXuU" title="Subscribe Plone Konferenz"><img alt="Plone Konferenz RSS Link" src="++resource++konferenz.theme.images/toolbar-rss.png" /></a></li>
-     		<li><a href="https://www.xing.com/events/plone-konferenz-munchen-2012-professionelles-content-management-814220" title="Plone Konferenz bei Xing"><img alt="Plone Konferenz Xing Event" src="++resource++konferenz.theme.images/toolbar-xing.png" /></a></li>
-     		<li><a href="http://www.flickr.com/photos/tags/plonekonf/" title="Fotos von der Plone Konferenz"><img alt="Plone Konferenz bei flickr" src="++resource++konferenz.theme.images/toolbar-flickr.png" /></a></li>
+     		<li><a href="http://twitter.com/PloneKonferenz" title="Plone Konferenz bei Twitter"><img src="" alt="Plone Konferenz Twitter Link" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-twitter.png" /></a></li>
+     		<li><a href="https://www.facebook.com/pages/Plonede/141710805879238" title="Plone bei Facebook"><img src="" alt="Plone Konferenz Facebook Link" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-facebook.png" /></a></li>
+     		<li><a href="https://plus.google.com/b/113782062668274810563/" title="Plone bei Google Plus"><img src="" alt="Plone Konferenz Google Plus Link" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-google.png" /></a></li>
+     		<li><a href="http://feeds.feedburner.com/plone/NXuU" title="Subscribe Plone Konferenz"><img src="" alt="Plone Konferenz RSS Link" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-rss.png" /></a></li>
+     		<li><a href="https://www.xing.com/events/plone-konferenz-munchen-2012-professionelles-content-management-814220" title="Plone Konferenz bei Xing"><img src="" alt="Plone Konferenz Xing Event" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-xing.png" /></a></li>
+     		<li><a href="http://www.flickr.com/photos/tags/plonekonf/" title="Fotos von der Plone Konferenz"><img src="" alt="Plone Konferenz bei flickr" tal:attributes="src string:${navigation_root_url}/++resource++konferenz.theme.images/toolbar-flickr.png" /></a></li>
      	</ul>
     </dd>
     
