@@ -45,6 +45,13 @@
       />
 
   <browser:page
+      for="*"
+      name="panel"
+      class=".panel.PanelView"
+      permission="zope.Public"
+      />
+
+  <browser:page
 	  for="Products.ATContentTypes.interface.topic.IATTopic"
 	  name="rssview"
 	  class=".rss.RssView"
