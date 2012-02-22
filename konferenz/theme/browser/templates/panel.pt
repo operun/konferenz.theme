@@ -71,7 +71,12 @@
 				</div>
 			</div>
 		</div>
-		
+        <div class="twitterfeed" style="width: 80%; margin: 0 auto;">	
+			    <script src="http://widgets.twimg.com/j/2/widget.js"></script><script>new TWTR.Widget({
+			    	version: 2, type: 'search', search: 'PloneKonf', interval: 5000, width: 'auto', height: 250, theme: { shell: { background: '#0083be', color: '#ffffff' }, tweets: { background: '#0083be', color: '#ffffff', links: '#f4ae21' } },
+			    	features: { scrollbar: false, loop: true, live: true, behavior: 'default' } }).render().start();
+			    </script>
+	    </div>
 		<div class="skyline">
 			<img src="" alt="Logo" tal:attributes="src python:'skyline.jpg'" />
 		</div>
